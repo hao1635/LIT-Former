@@ -6,7 +6,7 @@ This is the official implementation of the paper " LIT-Former: Linking In-plane 
 Jan, 2024: initial commit.  
 
 ## Approach
-![](figs/litformer.png)
+![](litformer.png)
 
 ## Data Preparation
 The 2016 AAPM-Mayo dataset can be downloaded from: [CT Clinical Innovation Center](https://ctcicblog.mayo.edu/2016-low-dose-ct-grand-challenge/) (B30 kernel)  
