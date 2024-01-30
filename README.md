@@ -42,12 +42,12 @@ Mayo2016/
 ## Traning and & Inference
 Training
 ```
-python train.py --is_train --dataroot (path to dataset)   --name litformer(name of project)  --train_batch_size 64 --phase train --is_val  --gpu_ids 0,1
+python train.py --is_train --dataroot (path to dataset) --checkpoints_dir checkpoints(path to save model checkpoint)  --name litformer(name of project)  --train_batch_size 64 --phase train --is_val  --gpu_ids 0,1
 ```
 
 Inference & testing
 ```
-python test.py --is_test --dataroot (path to dataset)   --name litformer(name of project)   --model_path  (path to model checkpoint) --phase test --test_batch_size 1  --gpu_ids 0
+python test.py --is_test --dataroot (path to dataset)   --name litformer(name of project)   --model_path  (path to load model checkpoint) --phase test --test_batch_size 1  --gpu_ids 0
 ```
 Please refer to options files for more setting.
 
